@@ -1,0 +1,74 @@
+.cabeza {
+    background-color: rgb(168, 0, 0);
+    height: 200px;
+    width: 200px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius:50% ;
+    ;
+    position: relative;
+}
+.cabeza>div { 
+    background-color: rgb(168, 0, 0);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 195px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.cuerpo { 
+    background-color: rgb(168, 0, 0);
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-bottom-left-radius: 100%;
+    bottom: 100px;
+}
+.cuerpo>div {
+    background-color: rgb(168, 0, 0);
+    height: 200px;
+    width: 200px;
+    position: absolute ;
+    left: 200px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom-right-radius: 100%;
+    
+}
+.texto{
+    position: absolute;
+    left: 108px;
+    top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    height: 100px;
+    width: 200px;
+}
+.mensaje {
+    background-color: rgb(0, 194, 167);
+    position: relative;
+    left: 440px;
+    bottom: 330px;
+    width: 300px;
+    text-align: center;
+    margin: 0;
+    padding: 0%;
+    font-size: 20px;
+    border: solid black;
+
+}
+
